@@ -23,7 +23,18 @@ public class HWDemo {
 	public static void getName() {
 		System.out.println("My Name:Shahad Aldoori");
 	}
-
+	
+	public static void PersonalInfo () {
+		
+		String Name = "Sami";
+		String LName = "Ahmadi";
+		String Address = "Alexandrai, VA, USA";
+		int ZipCode = 22304;
+		System.out.println("Name: " + Name);
+		System.out.println("LName: " + LName);
+		System.out.println("Home Address: " + Address);
+		System.out.println("Home ZipCode: " + ZipCode);
+	}
 	public static void staffDatabase () {
 		String name = "Sami";
 		String position = "Regional Director";
