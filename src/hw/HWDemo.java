@@ -24,4 +24,14 @@ public class HWDemo {
 		System.out.println("My Name:Shahad Aldoori");
 	}
 
+	public static void staffDatabase () {
+		String name = "Sami";
+		String position = "Regional Director";
+		double salary = 8500;
+		int id = 5697;
+		System.out.println("Staff Name: " + name);
+		System.out.println("Staff Position: " + position);
+		System.out.println("Staff Salary: " + salary);
+		System.out.println("Staff ID: " + id);
+}
 }
