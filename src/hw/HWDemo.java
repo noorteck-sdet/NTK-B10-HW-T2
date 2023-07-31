@@ -9,4 +9,11 @@ public class HWDemo {
 	public static void firstMethod() {
 		System.out.println("Hello Team, have a good week");
 	}
-}
+	public void add(int a,int b) {
+		System.out.println(a+b);
+		System.out.println("zainab");
+
+	}
+
+	}
+
