@@ -20,5 +20,8 @@ public class HWDemo {
 
 
 	}
+	public static void getName() {
+		System.out.println("My Name:Shahad Aldoori");
+	}
 
 }
