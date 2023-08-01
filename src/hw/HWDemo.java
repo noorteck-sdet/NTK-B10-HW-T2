@@ -55,6 +55,7 @@ public class HWDemo {
 		String student1 = "John";
 		String student2 = "Sebastian";
 		String student3 = "Antonio";
+		String student4="Shahad";
 
 	}
 
@@ -93,7 +94,8 @@ public class HWDemo {
 	}
 	public boolean isStudent(ArrayList<String> studentList, String student) {
 boolean result=false;
-		for (String student : studentList) {
+String name="";
+		for (String stu: studentList) {
 			if (student.equals(name)) {
 				return true;
 			}
