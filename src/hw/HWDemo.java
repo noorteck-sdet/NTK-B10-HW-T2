@@ -82,4 +82,15 @@ public class HWDemo {
 		}
 		return false;
 	}
-}
+	public int countStudent( String studentName) {
+		
+			int result=0;	
+		if(studentName.charAt(0)=='A') {
+			
+	result++;
+		}
+	return result;
+	}
+
+	}
+
