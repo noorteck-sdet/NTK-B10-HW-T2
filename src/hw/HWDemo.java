@@ -1,5 +1,7 @@
 package hw;
 
+import java.util.ArrayList;
+
 public class HWDemo {
 
 	public static void main(String[] args) {
@@ -62,7 +64,21 @@ public class HWDemo {
 			
 		}
 		
+	/**
+	 * 
+	 * @param studentList
+	 * @param name
+	 * @return true if name is in the studentList, otherwise return false
+	 */
+	public boolean isStudentListed(ArrayList<String> studentList, String name) {
 		
+		for(String student : studentList) {
+			if(student.equals(name)) {
+				return true;
+			}
+		}
+		return false;
+	}
 	}
 
 
