@@ -91,6 +91,15 @@ public class HWDemo {
 		}
 	return result;
 	}
+	public boolean isStudent(ArrayList<String> studentList, String student) {
+boolean result=false;
+		for (String student : studentList) {
+			if (student.equals(name)) {
+				return true;
+			}
+		}
+		return result;
+	}
 
 	}
 
