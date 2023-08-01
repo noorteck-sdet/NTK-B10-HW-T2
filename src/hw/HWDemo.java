@@ -42,5 +42,31 @@ public class HWDemo {
 		System.out.println("Staff Position: " + position);
 		System.out.println("Staff Salary: " + salary);
 		System.out.println("Staff ID: " + id);
-}
-}
+
+	
+	}
+
+	public void getStudents () {
+		
+		String student1 = "John";
+		String student2 = "Sebastian";
+		String student3 = "Antonio";
+		
+	}
+		public void languages () {
+			
+			String course1 = "English";
+			String course2 = "Spanish";
+			String course3 = "Italian";
+			String course4 = "Chinese";
+			
+		}
+		
+		
+	}
+
+
+
+
+
+
